@@ -21,8 +21,17 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* INDEX */
-.indeximages
+.indeximages {
 
+}
+
+.nav__logo {
+    width: 60px;
+}
+
+.navbar {
+    
+}
 
 /* SANDWICHERIA */
 .sandwicheriaimages
