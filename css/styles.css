@@ -1,48 +1,87 @@
 /* Estilos universales */
+body {
+    background-color: #E7E7E7;
+    font-family: 'Raleway', sans-serif;
+}
 
 h1 {
-font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster Two', cursive;
 }
-
+    
 h2 {
-font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster Two', cursive;
 }
-
+    
 h3 {
-font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster Two', cursive;
 }
 
-a {
-font-family: 'Raleway', sans-serif;
+nav {
+    background-color: #F9C784;
 }
 
-p {
-font-family: 'Raleway', sans-serif;
+.nav-link {
+    color: #485696;
+    padding: 3px;
+    transition: all 1s;
+    zoom: normal;
+    border-bottom: none;
 }
+
+.nav-link:hover {
+    font-style: italic;
+    border-radius: 10px;
+    background-color: #EDDEA4;
+    font-size: 1.2rem;
+}
+
+
 
 /* INDEX */
 .indeximages {
-
+   gap: 10px;
+   margin-bottom: 10px;
 }
 
 .nav__logo {
-    width: 60px;
-}
-
-.navbar {
-    
+    width: 80px;
 }
 
 /* SANDWICHERIA */
-.sandwicheriaimages
+@media (max-width: 1400px) {
+    .carousel {
+        width: 80%;
+    }
+    .carousel__img {
+        height: 50vw;
+    }
+}
 
+@media (max-width: 768px) {
+    .carousel {
+        width: 90%;
+    }
+    .carousel__img {
+        height: 55vw;
+    }
+}
 
+@media (max-width: 576px) {
+    .carousel {
+        width: 95%;
+    }
+    .carousel__img {
+        height: 65vw;
+    }
+}
 /* ROTISERIA */
-.rotiseriaimages
+.rotiseriaimages {
+    height: 300px;
+}
 
 
 /* LUNCHSERVICE */
-.lunchform 
+
 
 
 /* CONFITERIA */
@@ -50,7 +89,6 @@ font-family: 'Raleway', sans-serif;
 
 
 /* CONTACTO */
-
 
 
 /*****************************Hay que darle estilos al navbar****************************/
