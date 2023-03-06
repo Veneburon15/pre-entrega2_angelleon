@@ -1,3 +1,107 @@
+/** ESTILOS UNIVERSALES **/
+body {
+  background-color: #E7E7E7;
+  font-family: "Raleway", sans-serif;
+}
 
+h1, h2, h3 {
+  font-family: "Lobster Two", cursive;
+}
+
+/** NAVBAR **/
+nav {
+  background-color: #F9C784;
+}
+
+.nav-link {
+  color: #485696;
+  padding: 3px;
+  transition: all 1s;
+  zoom: normal;
+  border-bottom: none;
+}
+.nav-link:hover {
+  font-style: italic;
+  border-radius: 10px;
+  background-color: #EDDEA4;
+  font-size: 1.2rem;
+}
+
+.nav__logo {
+  width: 80px;
+}
+
+/** MEDIA QUERIES **/
+@media (max-width: 1400px) {
+  .carousel {
+    width: 80%;
+  }
+  .carousel__img {
+    height: 50vw;
+  }
+}
+@media (max-width: 768px) {
+  .carousel {
+    width: 90%;
+  }
+  .carousel__img {
+    height: 55vw;
+  }
+}
+@media (max-width: 576px) {
+  .carousel {
+    width: 95%;
+  }
+  .carousel__img {
+    height: 65vw;
+  }
+}
+/** IMAGENES **/
+/* INDEX */
+.indeximages {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* ROTISERIA */
+.rotiseriaimages {
+  height: 300px;
+}
+
+/** FORMULARIOS **/
+/* CONTACTO */
+input {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F4D06F;
+}
+
+textarea {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F4D06F;
+}
+
+.form__buttons {
+  border-color: #33658A;
+  transition: all 1s;
+  margin-top: 10px;
+}
+.form__buttons:hover {
+  background-color: #EDDEA4;
+}
+
+/* LUNCHSERVICE */
+.section__below {
+  display: flex block;
+  align-items: center;
+}
+
+/** FOOTER **/
+footer {
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */

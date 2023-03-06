@@ -1,0 +1,25 @@
+/** MEDIA QUERIES **/
+@media (max-width: 1400px) {
+	.carousel {
+		width: 80%;
+	}
+	.carousel__img {
+		height: 50vw;
+	}
+}
+@media (max-width: 768px) {
+	.carousel {
+		width: 90%;
+	}
+	.carousel__img {
+		height: 55vw;
+	}
+}
+@media (max-width: 576px) {
+	.carousel {
+		width: 95%;
+	}
+	.carousel__img {
+		height: 65vw;
+	}
+}

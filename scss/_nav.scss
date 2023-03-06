@@ -1,0 +1,20 @@
+/** NAVBAR **/
+nav {
+	background-color: $background-color_2;
+}
+.nav-link {
+	color: $color_1;
+	padding: 3px;
+	transition: all 1s;
+	zoom: normal;
+	border-bottom: none;
+	&:hover {
+		font-style: italic;
+		border-radius: 10px;
+		background-color: $background-color_3;
+		font-size: 1.2rem;
+	}
+}
+.nav__logo {
+	width: 80px;
+}
