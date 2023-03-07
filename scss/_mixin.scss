@@ -1,0 +1,10 @@
+@mixin paragraph_margins {margin:15px;}
+
+@mixin h1_margins {margin-top: 10px;}
+@mixin h_font {font-family: $font-family_2}
+
+@mixin forms {border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $border-color_1;
+}

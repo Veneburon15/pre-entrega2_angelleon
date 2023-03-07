@@ -1,17 +1,7 @@
 /** FORMULARIOS **/
 	/* CONTACTO */
-input {
-	border-radius: 3px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: $border-color_1;
-}
-textarea {
-	border-radius: 3px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: $border-color_1;
-}
+input {@include forms}
+textarea {@include forms}
 .form__buttons {
 	border-color: $border-color_2;
 	transition: all 1s;
@@ -19,6 +9,9 @@ textarea {
 	&:hover {
 		background-color: $background-color_3;
 	}
+}
+.contacto_mapa {
+	height: 400px;
 }
 
 /* LUNCHSERVICE */

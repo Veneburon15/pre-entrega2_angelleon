@@ -3,6 +3,9 @@ body {
 	background-color: $background-color_1;
 	font-family: $font-family_1;
 }
-h1, h2, h3 {
-	font-family: $font-family_2;
-}
+
+h1, h2, h3 {@include h_font}
+h1 {@include h1_margins;}
+
+.main-paragraph {@include paragraph_margins;}
+

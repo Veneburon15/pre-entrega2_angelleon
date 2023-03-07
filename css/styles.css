@@ -8,6 +8,14 @@ h1, h2, h3 {
   font-family: "Lobster Two", cursive;
 }
 
+h1 {
+  margin-top: 10px;
+}
+
+.main-paragraph {
+  margin: 15px;
+}
+
 /** NAVBAR **/
 nav {
   background-color: #F9C784;
@@ -91,6 +99,10 @@ textarea {
 }
 .form__buttons:hover {
   background-color: #EDDEA4;
+}
+
+.contacto_mapa {
+  height: 400px;
 }
 
 /* LUNCHSERVICE */
