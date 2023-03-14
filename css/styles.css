@@ -12,7 +12,6 @@ nav {
   border-bottom: none;
 }
 .nav-link:hover {
-  font-style: italic;
   border-radius: 10px;
   background-color: #EDDEA4;
   font-size: 1.5rem;
