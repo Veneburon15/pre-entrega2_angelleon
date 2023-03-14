@@ -90,6 +90,16 @@ textarea {
 /** FOOTER **/
 footer {
   margin-top: 10px;
+  background-color: #1d3557;
+}
+footer p {
+  color: white;
+}
+
+.footertext {
+  background-color: #1d3557;
+  margin: 0%;
+  padding-bottom: 10px;
 }
 
 /** MEDIA QUERIES **/

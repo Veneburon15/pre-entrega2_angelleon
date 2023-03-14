@@ -1,4 +1,14 @@
 /** FOOTER **/
 footer {
 	margin-top: 10px;
+	background-color: $background-color_4;
+	p {
+		color: $font-color_1;
+	}
+}
+
+.footertext {
+	background-color: $background-color_4;
+	margin: 0%;
+	padding-bottom: 10px;
 }
