@@ -1,21 +1,4 @@
-/** ESTILOS UNIVERSALES **/
-body {
-  background-color: #E7E7E7;
-  font-family: "Raleway", sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: "Lobster Two", cursive;
-}
-
-h1 {
-  margin-top: 10px;
-}
-
-.main-paragraph {
-  margin: 15px;
-}
-
+@charset "UTF-8";
 /** NAVBAR **/
 nav {
   background-color: #F9C784;
@@ -39,31 +22,25 @@ nav {
   width: 80px;
 }
 
-/** MEDIA QUERIES **/
-@media (max-width: 1400px) {
-  .carousel {
-    width: 80%;
-  }
-  .carousel__img {
-    height: 50vw;
-  }
+/** ESTILOS UNIVERSALES **/
+body {
+  background-color: #E7E7E7;
+  font-family: "Rokkitt", serif;
+  font-size: 1.2rem;
 }
-@media (max-width: 768px) {
-  .carousel {
-    width: 90%;
-  }
-  .carousel__img {
-    height: 55vw;
-  }
+
+h1, h2, h3 {
+  font-family: "Lobster Two", cursive;
 }
-@media (max-width: 576px) {
-  .carousel {
-    width: 95%;
-  }
-  .carousel__img {
-    height: 65vw;
-  }
+
+h1 {
+  margin-top: 10px;
 }
+
+.main-paragraph {
+  margin: 15px;
+}
+
 /** IMAGENES **/
 /* INDEX */
 .indeximages {
@@ -115,5 +92,39 @@ textarea {
 footer {
   margin-top: 10px;
 }
+
+/** MEDIA QUERIES **/
+@media (max-width: 1400px) {
+  .carousel {
+    width: 80%;
+  }
+  .carousel__img {
+    height: 50vw;
+  }
+}
+@media (max-width: 768px) {
+  .carousel {
+    width: 90%;
+  }
+  .carousel__img {
+    height: 55vw;
+  }
+}
+@media (max-width: 576px) {
+  .carousel {
+    width: 95%;
+  }
+  .carousel__img {
+    height: 65vw;
+  }
+}
+/* Hay que: Optimizar imagenes
+Dar más esacio a los textos para faciliatr la lectura, agregar alguna segmentción d etexto (subtpitulos)
+En el lunch service acomodar el orden de la imágen
+Agregar espacio de separacion entre los inputs de los formularios y los botones
+Mejorar los title
+Opyimizar la anidacion en el SCSS
+Corregir los mixins que son solo una propiedad o valor
+Agregar aimaciones y mejorar el diseño de la pagina*/
 
 /*# sourceMappingURL=styles.css.map */

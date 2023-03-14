@@ -2,6 +2,7 @@
 body {
 	background-color: $background-color_1;
 	font-family: $font-family_1;
+	font-size: 1.2rem;
 }
 
 h1, h2, h3 {@include h_font}
