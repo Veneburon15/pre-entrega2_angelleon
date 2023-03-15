@@ -21,6 +21,19 @@ nav {
   width: 80px;
 }
 
+.navbar__maindiv {
+  display: flex;
+}
+
+.navbar__itemsdiv {
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  font-family: "Lobster Two", cursive;
+  font-size: 1.4rem;
+}
+
 /** ESTILOS UNIVERSALES **/
 body {
   background-color: #E7E7E7;

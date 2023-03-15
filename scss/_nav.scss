@@ -17,3 +17,16 @@ nav {
 .nav__logo {
 	width: 80px;
 }
+
+.navbar__maindiv {
+	display: flex;
+}
+
+.navbar__itemsdiv {
+	justify-content: flex-end;
+}
+
+.navbar-brand {
+	font-family: $font-family_2;
+	font-size: 1.4rem;
+}
