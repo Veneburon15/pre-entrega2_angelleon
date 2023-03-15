@@ -1,6 +1,8 @@
 /** NAVBAR **/
 nav {
 	background-color: $background-color_2;
+	height: 100px;
+	display: flex;
 }
 .nav-link {
 	color: $color_1;
@@ -15,11 +17,11 @@ nav {
 	}
 }
 .nav__logo {
-	width: 80px;
+	width: $logo-size;
 }
 
 .navbar__maindiv {
-	display: flex;
+	height: 110px;
 }
 
 .navbar__itemsdiv {

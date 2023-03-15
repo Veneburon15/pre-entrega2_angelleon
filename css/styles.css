@@ -2,6 +2,8 @@
 /** NAVBAR **/
 nav {
   background-color: #F9C784;
+  height: 100px;
+  display: flex;
 }
 
 .nav-link {
@@ -22,7 +24,7 @@ nav {
 }
 
 .navbar__maindiv {
-  display: flex;
+  height: 110px;
 }
 
 .navbar__itemsdiv {
@@ -46,11 +48,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  margin-top: 10px;
+  margin: 10px 20px;
 }
 
 .main-paragraph {
-  margin: 15px;
+  margin: 15px 35px;
 }
 
 /** IMAGENES **/
@@ -115,6 +117,10 @@ footer p {
   padding-bottom: 10px;
 }
 
+.footer__logo {
+  width: 80px;
+}
+
 /** MEDIA QUERIES **/
 @media (max-width: 1400px) {
   .carousel {
@@ -147,6 +153,7 @@ Agregar espacio de separacion entre los inputs de los formularios y los botones
 Mejorar los title
 Opyimizar la anidacion en el SCSS
 Corregir los mixins que son solo una propiedad o valor
-Agregar aimaciones y mejorar el diseño de la pagina*/
+Agregar aimaciones y mejorar el diseño de la pagina
+corregir error en el navbar (se rompe cuando lo vemos en vista mobile)*/
 
 /*# sourceMappingURL=styles.css.map */
