@@ -5,7 +5,6 @@ body {
 	font-size: 1.2rem;
 }
 
-h1, h2, h3 {@include h_font}
-h1 {@include h1_margins;}
+h1, h2, h3 {@include h_font;}
 
-.main-paragraph {@include paragraph_margins;}
+.main-paragraph {margin: $paragraph_margin;}

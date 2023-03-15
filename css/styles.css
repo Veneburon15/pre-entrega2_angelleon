@@ -45,10 +45,7 @@ body {
 
 h1, h2, h3 {
   font-family: "Lobster Two", cursive;
-}
-
-h1 {
-  margin: 10px 20px;
+  margin: 10px 17px;
 }
 
 .main-paragraph {
@@ -68,6 +65,10 @@ h1 {
 }
 
 /** FORMULARIOS **/
+.form__divs {
+  margin-top: 10px;
+}
+
 /* CONTACTO */
 input {
   border-radius: 3px;
@@ -152,8 +153,10 @@ En el lunch service acomodar el orden de la imágen
 Agregar espacio de separacion entre los inputs de los formularios y los botones
 Mejorar los title
 Opyimizar la anidacion en el SCSS
-Corregir los mixins que son solo una propiedad o valor
 Agregar aimaciones y mejorar el diseño de la pagina
-corregir error en el navbar (se rompe cuando lo vemos en vista mobile)*/
+
+
+corregir error en el navbar (se rompe cuando lo vemos en vista mobile)
+averiguar porque no me agarra los margenes del h2 en lapagina de sandwiches*/
 
 /*# sourceMappingURL=styles.css.map */

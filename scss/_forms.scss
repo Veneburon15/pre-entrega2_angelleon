@@ -1,4 +1,5 @@
 /** FORMULARIOS **/
+.form__divs {margin-top: $form_gap;}
 	/* CONTACTO */
 input {@include forms}
 textarea {@include forms}

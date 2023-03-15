@@ -1,7 +1,6 @@
-@mixin paragraph_margins {margin:15px 35px;}
-
-@mixin h1_margins {margin: 10px 20px;}
-@mixin h_font {font-family: $font-family_2}
+@mixin h_font {font-family: $font-family_2;
+	margin: $h_margins;
+}
 
 @mixin forms {border-radius: 3px;
 	border-style: solid;
