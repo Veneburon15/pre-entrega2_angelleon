@@ -7,3 +7,8 @@
 	border-width: 1px;
 	border-color: $border-color_1;
 }
+
+@mixin h2-style {
+	font-size: 2rem;
+	font-family: $font-family_2;
+}
