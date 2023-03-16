@@ -4,6 +4,7 @@ nav {
 	height: 100px;
 	display: flex;
 }
+
 .nav-link {
 	color: $color_1;
 	padding: 3px;
@@ -16,12 +17,13 @@ nav {
 		font-size: 1.5rem;
 	}
 }
+
 .nav__logo {
 	width: $logo-size;
 }
 
 .navbar__maindiv {
-	height: 110px;
+
 }
 
 .navbar__itemsdiv {
