@@ -23,3 +23,42 @@
 		height: 65vw;
 	}
 }
+
+
+
+/*hay que ver que esta mal con este codigo*/
+
+@media (max-width: 1400px) {
+		.footer__branddiv{
+		display: block;
+		width:50vw;
+	}
+	.footer__socialmedia{
+		display: block;
+		width: 50vw;
+	}
+}
+@media (max-width: 768px) {
+	.footer__branddiv{
+		display: block;
+		width: 50vw;
+	}
+	.footer__socialmedia{
+		display: block;
+		width: 50vw;
+	}
+}
+@media (max-width: 576px) {
+	.footer__maindiv{
+		display: block;
+
+		.footer__branddiv{
+			display: block;
+			width: 100vw;
+		}
+		.footer__socialmedia{
+			display: block;
+			width: 100vw;
+		}
+	}
+}

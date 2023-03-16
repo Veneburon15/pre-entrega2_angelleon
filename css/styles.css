@@ -114,19 +114,34 @@ textarea {
 footer {
   margin-top: 10px;
   background-color: #1d3557;
+  display: flex;
+  flex-direction: column;
 }
 footer p {
   color: white;
 }
-
-.footertext {
-  background-color: #1d3557;
+footer .footer__maindiv {
+  margin: 15px 0px;
+  display: flex;
+}
+footer .footer__maindiv .footer__branddiv {
+  display: block;
+}
+footer .footer__maindiv .footer__branddiv .footer__logo {
+  width: 95px;
+}
+footer .footer__maindiv .footer__branddiv .copyright-text {
+  font-size: 0.9rem;
+}
+footer .footer__maindiv .footer__socialmedia {
+  display: block;
+}
+footer .footer__maindiv .footer__socialmedia .socialmedia-logo {
+  width: 100px;
+}
+footer .footertext {
   margin: 0%;
   padding-bottom: 10px;
-}
-
-.footer__logo {
-  width: 80px;
 }
 
 /** MEDIA QUERIES **/
@@ -154,11 +169,47 @@ footer p {
     height: 65vw;
   }
 }
+/*hay que ver que esta mal con este codigo*/
+@media (max-width: 1400px) {
+  .footer__branddiv {
+    display: block;
+    width: 50vw;
+  }
+  .footer__socialmedia {
+    display: block;
+    width: 50vw;
+  }
+}
+@media (max-width: 768px) {
+  .footer__branddiv {
+    display: block;
+    width: 50vw;
+  }
+  .footer__socialmedia {
+    display: block;
+    width: 50vw;
+  }
+}
+@media (max-width: 576px) {
+  .footer__maindiv {
+    display: block;
+  }
+  .footer__maindiv .footer__branddiv {
+    display: block;
+    width: 100vw;
+  }
+  .footer__maindiv .footer__socialmedia {
+    display: block;
+    width: 100vw;
+  }
+}
 /* Hay que: Optimizar imagenes
 Dar más esacio a los textos para faciliatr la lectura, agregar alguna segmentción d etexto (subtpitulos)
 En el lunch service acomodar el orden de la imágen
 Mejorar los title
 Opyimizar la anidacion en el SCSS
-Agregar aimaciones y mejorar el diseño de la pagina*/
+Agregar aimaciones y mejorar el diseño de la pagina
+
+arreglar los footer repnsve*/
 
 /*# sourceMappingURL=styles.css.map */

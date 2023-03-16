@@ -2,17 +2,35 @@
 footer {
 	margin-top: 10px;
 	background-color: $background-color_4;
+	display: flex;
+	flex-direction: column;
+
 	p {
 		color: $font-color_1;
 	}
+
+	.footer__maindiv{
+		margin: $footer_margin;
+		display: flex;
+	
+		.footer__branddiv{
+			display: block;
+						
+			.footer__logo {width: $logo-size + 15px;}
+			.copyright-text {font-size: 0.9rem;}
+		}
+		.footer__socialmedia{
+			display: block;
+
+
+			.socialmedia-logo {width: $socialmedia_logo-size;}	
+		}
+	}
+
+	.footertext {
+		margin: 0%;
+		padding-bottom: 10px;
+	}
 }
 
-.footertext {
-	background-color: $background-color_4;
-	margin: 0%;
-	padding-bottom: 10px;
-}
 
-.footer__logo {
-	width: $logo-size;
-}
