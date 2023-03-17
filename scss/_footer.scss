@@ -5,25 +5,19 @@ footer {
 	display: flex;
 	flex-direction: column;
 
-	p {
-		color: $font-color_1;
-	}
+	p {color: $font-color_1;}
 
 	.footer__maindiv{
 		margin: $footer_margin;
-		display: flex;
-	
+
 		.footer__branddiv{
-			display: block;
-						
 			.footer__logo {width: $logo-size + 15px;}
 			.copyright-text {font-size: 0.9rem;}
 		}
 		.footer__socialmedia{
-			display: block;
-
-
+			margin: $footer_margin;
 			.socialmedia-logo {width: $socialmedia_logo-size;}	
+			.footer__socialmedia-text {font-size: 1.2rem;}
 		}
 	}
 
@@ -32,5 +26,3 @@ footer {
 		padding-bottom: 10px;
 	}
 }
-
-

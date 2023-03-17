@@ -3,31 +3,27 @@
 nav {
   background-color: #F9C784;
 }
-
-.nav-link {
+nav .navbar-brand {
+  font-family: "Lobster Two", cursive;
+  font-size: 1.4rem;
+}
+nav .navbar-brand .nav__logo {
+  width: 80px;
+}
+nav .navbar__itemsdiv {
+  justify-content: flex-end;
+}
+nav .navbar__itemsdiv .nav-link {
   color: #485696;
   padding: 3px;
   transition: all 1s;
   zoom: normal;
   border-bottom: none;
 }
-.nav-link:hover {
+nav .navbar__itemsdiv .nav-link:hover {
   border-radius: 10px;
   background-color: #EDDEA4;
   font-size: 1.5rem;
-}
-
-.nav__logo {
-  width: 80px;
-}
-
-.navbar__itemsdiv {
-  justify-content: flex-end;
-}
-
-.navbar-brand {
-  font-family: "Lobster Two", cursive;
-  font-size: 1.4rem;
 }
 
 /** ESTILOS UNIVERSALES **/
@@ -36,26 +32,21 @@ body {
   font-family: "Rokkitt", serif;
   font-size: 1.2rem;
 }
-
-h1, h3 {
+body h1, body h3 {
   font-family: "Lobster Two", cursive;
   margin: 10px 17px;
 }
-
-.main-paragraph {
-  margin: 15px 35px;
-}
-
-h2 {
+body h2 {
   font-size: 2rem;
   font-family: "Lobster Two", cursive;
 }
-
-.h2bottom {
+body .main-paragraph {
+  margin: 15px 35px;
+}
+body .h2bottom {
   margin-top: 15px;
 }
-
-.h2sand_bottom {
+body .h2sand_bottom {
   margin-bottom: 15px;
 }
 
@@ -122,10 +113,6 @@ footer p {
 }
 footer .footer__maindiv {
   margin: 15px 0px;
-  display: flex;
-}
-footer .footer__maindiv .footer__branddiv {
-  display: block;
 }
 footer .footer__maindiv .footer__branddiv .footer__logo {
   width: 95px;
@@ -134,10 +121,13 @@ footer .footer__maindiv .footer__branddiv .copyright-text {
   font-size: 0.9rem;
 }
 footer .footer__maindiv .footer__socialmedia {
-  display: block;
+  margin: 15px 0px;
 }
 footer .footer__maindiv .footer__socialmedia .socialmedia-logo {
-  width: 100px;
+  width: 60px;
+}
+footer .footer__maindiv .footer__socialmedia .footer__socialmedia-text {
+  font-size: 1.2rem;
 }
 footer .footertext {
   margin: 0%;
@@ -145,11 +135,12 @@ footer .footertext {
 }
 
 /** MEDIA QUERIES **/
-@media (max-width: 1400px) {
+/*SANDWICHERIA*/
+@media (max-width: 1600px) {
   .carousel {
     width: 80%;
   }
-  .carousel__img {
+  .carousel .carousel__img {
     height: 50vw;
   }
 }
@@ -157,7 +148,7 @@ footer .footertext {
   .carousel {
     width: 90%;
   }
-  .carousel__img {
+  .carousel .carousel__img {
     height: 55vw;
   }
 }
@@ -165,51 +156,21 @@ footer .footertext {
   .carousel {
     width: 95%;
   }
-  .carousel__img {
+  .carousel .carousel__img {
     height: 65vw;
   }
 }
-/*hay que ver que esta mal con este codigo*/
-@media (max-width: 1400px) {
+/*FOOTER*/
+@media (max-width: 1000px) and (min-width: 750px) {
   .footer__branddiv {
-    display: block;
-    width: 50vw;
-  }
-  .footer__socialmedia {
-    display: block;
-    width: 50vw;
-  }
-}
-@media (max-width: 768px) {
-  .footer__branddiv {
-    display: block;
-    width: 50vw;
-  }
-  .footer__socialmedia {
-    display: block;
-    width: 50vw;
-  }
-}
-@media (max-width: 576px) {
-  .footer__maindiv {
-    display: block;
-  }
-  .footer__maindiv .footer__branddiv {
-    display: block;
-    width: 100vw;
-  }
-  .footer__maindiv .footer__socialmedia {
-    display: block;
-    width: 100vw;
+    border-right: 2px solid white;
   }
 }
 /* Hay que: Optimizar imagenes
 Dar más esacio a los textos para faciliatr la lectura, agregar alguna segmentción d etexto (subtpitulos)
 En el lunch service acomodar el orden de la imágen
 Mejorar los title
-Opyimizar la anidacion en el SCSS
 Agregar aimaciones y mejorar el diseño de la pagina
-
-arreglar los footer repnsve*/
+*/
 
 /*# sourceMappingURL=styles.css.map */
