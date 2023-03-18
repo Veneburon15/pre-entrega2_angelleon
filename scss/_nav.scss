@@ -15,16 +15,18 @@ nav {
 		justify-content: flex-end;
 
 		.nav-link {
-			color: $color_1;
+			color: black;
 			padding: 3px;
 			transition: all 1s;
 			zoom: normal;
 			border-bottom: none;
+			font-size: 1.5rem;
 			&:hover {
 				border-radius: 10px;
 				background-color: $background-color_3;
-				font-size: 1.5rem;
+				font-size: 2rem;
 			}
 		}
+		.disabled {color: $border-color_1}
 	}
 }

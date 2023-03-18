@@ -18,7 +18,7 @@ footer {
 			margin: $footer_margin;
 			.socialmedia-logo {
 				width: $socialmedia_logo-size;
-				filter: grayscale(80%);
+				filter: grayscale(65%);
 				transition: all 1s;
 				&:hover {
 					filter: grayscale(0%);

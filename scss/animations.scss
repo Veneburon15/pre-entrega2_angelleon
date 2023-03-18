@@ -1,26 +1,23 @@
 /*ANIMACIONES*/
-.span__animation {
+.index__animation {
     white-space: nowrap;
     font-family: $font-family_2;
     border-right: 2px solid $border-color_2;
-    width: 18ch;
+    width: 17ch;
     font-size: 2.3rem;
     color: black;
     margin: $h_margins;
 
-    animation: typing 8s steps(24), blink .8s infinite step-end alternate;
+    animation: typing 5s steps(24), blink .8s infinite step-end alternate;
     animation-timing-function: ease-in;
     overflow: hidden;
 }
+    @keyframes typing {
+        from {width: 0}
+    }
+        
+    @keyframes blink {
+        50% { border-color: transparent}
+    }
 
-@keyframes typing {
-    from {width: 0}
-}
-    
-@keyframes blink {
-    50% { border-color: transparent}
-}
 
-.animate__animated.animate__backInLeft {
-    --animate-duration: 2s;
-  }

@@ -1,21 +1,100 @@
 /** FORMULARIOS **/
-form {border: 2px;
-	border-radius: 10px;
-	border-style: solid;
-	border-color: $border-color_2;
-}
-
 /* CONTACTO */
 .form__divs {margin-top: $form_gap;}
 input {@include forms}
-textarea {@include forms}
-.form__buttons {
-	border-color: $border-color_2;
+textarea {@include forms;
+	width: 400px;
 	transition: all 1s;
-	margin-top: 10px;
-	&:hover {
-		background-color: $background-color_3;
+	background-color: $background-color_5;
+	&:focus {background-color: $background-color_6;}
+}
+
+
+.form {
+	background-color: $background-color_5;
+	margin: auto;
+	width: 60%;
+	max-width: 600px;
+	padding: 1.5em 3em;
+	border-radius: 15px;
+	box-shadow: 0 5px 15px -5px rgb(0 0 0 / 50%);
+	margin-bottom: 15px;
+
+	.form__maindiv {
+		margin-top: 1em;
+		display: grid;
+		gap: .5em;
+
+		.form__divs {
+			position: relative;
+			--color: #5757577e;
+			padding: 10px 0px;
+
+			.form__input {
+				width: 100%;
+				background: none;
+				border: none;
+				outline: none;
+				border-bottom: 1px solid var(--color);
+			}
+
+			.form__input:not(:placeholder-shown){
+				color: $border-color_5;
+			}
+
+			.form__input:focus + .form__label, 
+			.form__input:not(:placeholder-shown) + .form__label{
+				transform: translateY(-12px) scale(.7);
+				transform-origin: left top;
+				color: $font-color_2;
+			}
+
+			.form__label {
+				cursor: pointer;
+				position: absolute;
+				top: 0;
+				left: 5px;
+				transform: translateY(10px);
+				transition: transform .5s, color .3s;
+			}
+
+		}
+
+		.form__line {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background-color: #3866f2;
+			transform: scale(0);
+			transform: left bottom;
+			transition: transform .4s;
+		}
+
+		.form__input:focus ~ .form__label, 
+		.form__input:not(:placeholder-shown) ~ .form__label {
+			transform: scale(1);
+		}
+
+		.form__buttons {
+			background-color: $font-color_2;
+			color: $font-color_1;
+			font-size: 1rem;
+			padding: .5em 1em;
+			border: 1px solid $border-color_5;
+			border-radius: .5em;
+			transition: all 1s;
+			&:hover {
+				background-color: $background-color_3;
+				color: #4d4646;
+			}
+		}
 	}
+}
+
+.divmap {
+	margin-right: 20px;
 }
 
 /* LUNCHSERVICE */
