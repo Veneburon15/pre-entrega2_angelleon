@@ -167,7 +167,6 @@ textarea:focus {
 
 .divmap {
   margin-right: 20px;
-  margin-bottom: 15px;
   justify-content: center;
   align-items: center;
 }
@@ -176,13 +175,6 @@ textarea:focus {
 .section__below {
   display: flex block;
   align-items: center;
-}
-
-.contact-sectionform {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 /** FOOTER **/
@@ -385,7 +377,7 @@ footer .footertext {
   }
 }
 /*NAVBAR*/
-@media (max-width: 700px) and (min-width: 350px) {
+@media (max-width: 700px) {
   .navbar-brand {
     font-size: 0.5rem;
   }
@@ -401,4 +393,4 @@ arreglar el mapa para responsive
 
 */
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=tyles.css.map */

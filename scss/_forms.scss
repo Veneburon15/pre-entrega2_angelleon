@@ -57,7 +57,6 @@ textarea {@include forms;
 				transform: translateY(10px);
 				transition: transform .5s, color .3s;
 			}
-
 		}
 
 		.form__line {
@@ -95,11 +94,20 @@ textarea {@include forms;
 
 .divmap {
 	margin-right: 20px;
+	margin-bottom: 15px;
+	justify-content: center;
+	align-items: center;
 }
 
 /* LUNCHSERVICE */
-
 .section__below {
 	display: flex block;
 	align-items: center;
+}
+
+.contact-sectionform {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
