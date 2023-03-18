@@ -23,7 +23,7 @@ textarea {@include forms;
 	.form__maindiv {
 		margin-top: 1em;
 		display: grid;
-		gap: .5em;
+		gap: $form_gap;
 
 		.form__divs {
 			position: relative;
