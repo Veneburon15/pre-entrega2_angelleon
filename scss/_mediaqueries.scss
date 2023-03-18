@@ -30,3 +30,11 @@
 @media (max-width: 1000px) and (min-width: 750px) {
 	.footer__branddiv{border-right: 2px solid $border-color_4;}
 }
+
+
+/*ANIMACION*/
+@media (max-width: 750px){
+	.span__animation {
+		font-size: 2rem;
+	}
+}

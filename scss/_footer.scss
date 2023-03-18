@@ -16,7 +16,14 @@ footer {
 		}
 		.footer__socialmedia{
 			margin: $footer_margin;
-			.socialmedia-logo {width: $socialmedia_logo-size;}	
+			.socialmedia-logo {
+				width: $socialmedia_logo-size;
+				filter: grayscale(80%);
+				transition: all 1s;
+				&:hover {
+					filter: grayscale(0%);
+				}
+			}	
 			.footer__socialmedia-text {font-size: 1.2rem;}
 		}
 	}

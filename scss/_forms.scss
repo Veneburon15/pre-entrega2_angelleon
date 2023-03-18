@@ -1,7 +1,12 @@
 /** FORMULARIOS **/
-.form__divs {margin-top: $form_gap;}
+form {border: 2px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: $border-color_2;
+}
 
-	/* CONTACTO */
+/* CONTACTO */
+.form__divs {margin-top: $form_gap;}
 input {@include forms}
 textarea {@include forms}
 .form__buttons {
@@ -12,11 +17,9 @@ textarea {@include forms}
 		background-color: $background-color_3;
 	}
 }
-.contacto_mapa {
-	width: 350px;
-}
 
 /* LUNCHSERVICE */
+
 .section__below {
 	display: flex block;
 	align-items: center;

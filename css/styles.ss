@@ -31,17 +31,10 @@ body {
   background-color: #E7E7E7;
   font-family: "Rokkitt", serif;
   font-size: 1.2rem;
-  /*
-  .animation__zone {
-  	background-image: url(../images/background-final.jpg);
-
-  	width: 95vw;
-  }
-  */
 }
 body h1, body h3 {
   font-family: "Lobster Two", cursive;
-  margin: 10px 10px;
+  margin: 10px 17px;
 }
 body h2 {
   font-size: 2rem;
@@ -70,11 +63,10 @@ body .h2sand_bottom {
 }
 
 /** FORMULARIOS **/
-form {
-  border: 2px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #33658A;
+/*form {border: 2px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: $border-color_2;
 }
 
 /* CONTACTO */
@@ -103,6 +95,10 @@ textarea {
 }
 .form__buttons:hover {
   background-color: #EDDEA4;
+}
+
+.contacto_mapa {
+  width: 350px;
 }
 
 /* LUNCHSERVICE */
@@ -135,11 +131,6 @@ footer .footer__maindiv .footer__socialmedia {
 }
 footer .footer__maindiv .footer__socialmedia .socialmedia-logo {
   width: 60px;
-  filter: grayscale(80%);
-  transition: all 1s;
-}
-footer .footer__maindiv .footer__socialmedia .socialmedia-logo:hover {
-  filter: grayscale(0%);
 }
 footer .footer__maindiv .footer__socialmedia .footer__socialmedia-text {
   font-size: 1.2rem;
@@ -147,34 +138,6 @@ footer .footer__maindiv .footer__socialmedia .footer__socialmedia-text {
 footer .footertext {
   margin: 0%;
   padding-bottom: 10px;
-}
-
-/*ANIMACIONES*/
-.span__animation {
-  white-space: nowrap;
-  font-family: "Lobster Two", cursive;
-  border-right: 2px solid #33658A;
-  width: 18ch;
-  font-size: 2.3rem;
-  color: black;
-  margin: 10px 10px;
-  animation: typing 8s steps(24), blink 0.8s infinite step-end alternate;
-  animation-timing-function: ease-in;
-  overflow: hidden;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-.animate__animated.animate__backInLeft {
-  --animate-duration: 2s;
 }
 
 /** MEDIA QUERIES **/
@@ -209,19 +172,11 @@ footer .footertext {
     border-right: 2px solid white;
   }
 }
-/*ANIMACION*/
-@media (max-width: 750px) {
-  .span__animation {
-    font-size: 2rem;
-  }
-}
 /* Hay que: Optimizar imagenes
+Dar más esacio a los textos para faciliatr la lectura, agregar alguna segmentción d etexto (subtpitulos)
 En el lunch service acomodar el orden de la imágen
 Mejorar los title
-
-arreglar los formulatios
-confirmar fondo de la animacion
-
+Agregar aimaciones y mejorar el diseño de la pagina
 */
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.ss.map */
