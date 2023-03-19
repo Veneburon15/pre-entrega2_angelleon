@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /** NAVBAR **/
 nav {
   background-color: #F9C784;
@@ -390,15 +389,5 @@ footer .footertext {
     font-size: 0.5rem;
   }
 }
-/* Hay que: Optimizar imagenes
-En el lunch service acomodar el orden de la imágen
-Mejorar los title
-
-arreglar los formulatios
-
-arreglar el mapa para responsive
-
-
-*/
 
 /*# sourceMappingURL=styles.css.map */
