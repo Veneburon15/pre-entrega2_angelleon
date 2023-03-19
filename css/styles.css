@@ -1,11 +1,10 @@
-@charset "UTF-8";
 /** NAVBAR **/
 nav {
   background-color: #F9C784;
 }
 nav .navbar-brand {
   font-family: "Lobster Two", cursive;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 nav .navbar-brand .nav__logo {
   width: 80px;
@@ -19,12 +18,12 @@ nav .navbar__itemsdiv .nav-link {
   transition: all 1s;
   zoom: normal;
   border-bottom: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 nav .navbar__itemsdiv .nav-link:hover {
   border-radius: 10px;
   background-color: #EDDEA4;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 nav .navbar__itemsdiv .disabled {
   color: #706c6c;
@@ -390,15 +389,5 @@ footer .footertext {
     font-size: 0.5rem;
   }
 }
-/* Hay que: Optimizar imagenes
-En el lunch service acomodar el orden de la imágen
-Mejorar los title
-
-arreglar los formulatios
-
-arreglar el mapa para responsive
-
-
-*/
 
 /*# sourceMappingURL=styles.css.map */

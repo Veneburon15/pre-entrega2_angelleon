@@ -4,7 +4,7 @@ nav {
 	
 	.navbar-brand {
 		font-family: $font-family_2;
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 
 		.nav__logo {
 			width: $logo-size;
@@ -20,11 +20,11 @@ nav {
 			transition: all 1s;
 			zoom: normal;
 			border-bottom: none;
-			font-size: 1.4rem;
+			font-size: 1.3rem;
 			&:hover {
 				border-radius: 10px;
 				background-color: $background-color_3;
-				font-size: 1.7rem;
+				font-size: 1.5rem;
 			}
 		}
 		.disabled {color: $border-color_1}
