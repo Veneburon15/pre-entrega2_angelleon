@@ -23,7 +23,7 @@ nav .navbar__itemsdiv .nav-link {
 nav .navbar__itemsdiv .nav-link:hover {
   border-radius: 10px;
   background-color: #EDDEA4;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 nav .navbar__itemsdiv .disabled {
   color: #706c6c;
